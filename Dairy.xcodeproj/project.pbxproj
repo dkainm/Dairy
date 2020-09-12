@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53E94A0A58C712EFBCC3251F /* Pods_Dairy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BEE7B3E39FB717D1DE49E1 /* Pods_Dairy.framework */; };
+		FA46C1382507C3CA007D164D /* WorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46C1372507C3CA007D164D /* WorkModel.swift */; };
+		FAA5373625073A2000FC2017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5373525073A2000FC2017 /* AppDelegate.swift */; };
+		FAA5373825073A2000FC2017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5373725073A2000FC2017 /* SceneDelegate.swift */; };
+		FAA5373A25073A2000FC2017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5373925073A2000FC2017 /* ViewController.swift */; };
+		FAA5373D25073A2000FC2017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5373B25073A2000FC2017 /* Main.storyboard */; };
+		FAA5374025073A2000FC2017 /* Dairy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA5373E25073A2000FC2017 /* Dairy.xcdatamodeld */; };
+		FAA5374225073A2200FC2017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5374125073A2200FC2017 /* Assets.xcassets */; };
+		FAA5374525073A2200FC2017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5374325073A2200FC2017 /* LaunchScreen.storyboard */; };
+		FAA87F8F250BDD0900753DB7 /* HomeworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA87F8D250BDD0900753DB7 /* HomeworkTableViewCell.swift */; };
+		FAA87F90250BDD0900753DB7 /* HomeworkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA87F8E250BDD0900753DB7 /* HomeworkTableViewCell.xib */; };
+		FACDB45F250912ED009F638F /* HomeworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDB45E250912ED009F638F /* HomeworkTableViewController.swift */; };
+		FACDB46125091367009F638F /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDB46025091367009F638F /* DatabaseService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0653BD1E6C9CEB7D22FEC13F /* Pods-Dairy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dairy.release.xcconfig"; path = "Target Support Files/Pods-Dairy/Pods-Dairy.release.xcconfig"; sourceTree = "<group>"; };
+		A86CFA589943858B6A769DFD /* Pods-Dairy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dairy.debug.xcconfig"; path = "Target Support Files/Pods-Dairy/Pods-Dairy.debug.xcconfig"; sourceTree = "<group>"; };
+		F6BEE7B3E39FB717D1DE49E1 /* Pods_Dairy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dairy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA46C1372507C3CA007D164D /* WorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkModel.swift; sourceTree = "<group>"; };
+		FAA5373225073A2000FC2017 /* Dairy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dairy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5373525073A2000FC2017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA5373725073A2000FC2017 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAA5373925073A2000FC2017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA5373C25073A2000FC2017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA5373F25073A2000FC2017 /* Dairy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dairy.xcdatamodel; sourceTree = "<group>"; };
+		FAA5374125073A2200FC2017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA5374425073A2200FC2017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA5374625073A2200FC2017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA87F8D250BDD0900753DB7 /* HomeworkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkTableViewCell.swift; sourceTree = "<group>"; };
+		FAA87F8E250BDD0900753DB7 /* HomeworkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeworkTableViewCell.xib; sourceTree = "<group>"; };
+		FACDB45E250912ED009F638F /* HomeworkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkTableViewController.swift; sourceTree = "<group>"; };
+		FACDB46025091367009F638F /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA5372F25073A2000FC2017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E94A0A58C712EFBCC3251F /* Pods_Dairy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242AC11204C705D69002918C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6BEE7B3E39FB717D1DE49E1 /* Pods_Dairy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AC4C545BCDAF79EFFE79587 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A86CFA589943858B6A769DFD /* Pods-Dairy.debug.xcconfig */,
+				0653BD1E6C9CEB7D22FEC13F /* Pods-Dairy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAA5372925073A2000FC2017 = {
+			isa = PBXGroup;
+			children = (
+				FAA5373425073A2000FC2017 /* Dairy */,
+				FAA5373325073A2000FC2017 /* Products */,
+				5AC4C545BCDAF79EFFE79587 /* Pods */,
+				242AC11204C705D69002918C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA5373325073A2000FC2017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5373225073A2000FC2017 /* Dairy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA5373425073A2000FC2017 /* Dairy */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5374625073A2200FC2017 /* Info.plist */,
+				FAA5373E25073A2000FC2017 /* Dairy.xcdatamodeld */,
+				FAA5374125073A2200FC2017 /* Assets.xcassets */,
+				FAE868FD250CF543000FDA68 /* Controllers */,
+				FAE868FE250CF554000FDA68 /* Views */,
+				FAE868FC250CF536000FDA68 /* Models */,
+				FAE86900250CF56E000FDA68 /* Services */,
+				FAE868FF250CF561000FDA68 /* Resources */,
+			);
+			path = Dairy;
+			sourceTree = "<group>";
+		};
+		FAE868FC250CF536000FDA68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA46C1372507C3CA007D164D /* WorkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAE868FD250CF543000FDA68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5373925073A2000FC2017 /* ViewController.swift */,
+				FACDB45E250912ED009F638F /* HomeworkTableViewController.swift */,
+				FAA87F8D250BDD0900753DB7 /* HomeworkTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAE868FE250CF554000FDA68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5373B25073A2000FC2017 /* Main.storyboard */,
+				FAA5374325073A2200FC2017 /* LaunchScreen.storyboard */,
+				FAA87F8E250BDD0900753DB7 /* HomeworkTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAE868FF250CF561000FDA68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5373525073A2000FC2017 /* AppDelegate.swift */,
+				FAA5373725073A2000FC2017 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAE86900250CF56E000FDA68 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FACDB46025091367009F638F /* DatabaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA5373125073A2000FC2017 /* Dairy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5374925073A2200FC2017 /* Build configuration list for PBXNativeTarget "Dairy" */;
+			buildPhases = (
+				A5B33AD41ABC7BE420615D64 /* [CP] Check Pods Manifest.lock */,
+				FAA5372E25073A2000FC2017 /* Sources */,
+				FAA5372F25073A2000FC2017 /* Frameworks */,
+				FAA5373025073A2000FC2017 /* Resources */,
+				DA74489405C78F05B15310F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dairy;
+			productName = Dairy;
+			productReference = FAA5373225073A2000FC2017 /* Dairy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA5372A25073A2000FC2017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Alex Rudoi";
+				TargetAttributes = {
+					FAA5373125073A2000FC2017 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = FAA5372D25073A2000FC2017 /* Build configuration list for PBXProject "Dairy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA5372925073A2000FC2017;
+			productRefGroup = FAA5373325073A2000FC2017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA5373125073A2000FC2017 /* Dairy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA5373025073A2000FC2017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5374525073A2200FC2017 /* LaunchScreen.storyboard in Resources */,
+				FAA87F90250BDD0900753DB7 /* HomeworkTableViewCell.xib in Resources */,
+				FAA5374225073A2200FC2017 /* Assets.xcassets in Resources */,
+				FAA5373D25073A2000FC2017 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5B33AD41ABC7BE420615D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dairy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA74489405C78F05B15310F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dairy/Pods-Dairy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dairy/Pods-Dairy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dairy/Pods-Dairy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA5372E25073A2000FC2017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA46C1382507C3CA007D164D /* WorkModel.swift in Sources */,
+				FACDB46125091367009F638F /* DatabaseService.swift in Sources */,
+				FACDB45F250912ED009F638F /* HomeworkTableViewController.swift in Sources */,
+				FAA5373A25073A2000FC2017 /* ViewController.swift in Sources */,
+				FAA5373625073A2000FC2017 /* AppDelegate.swift in Sources */,
+				FAA87F8F250BDD0900753DB7 /* HomeworkTableViewCell.swift in Sources */,
+				FAA5373825073A2000FC2017 /* SceneDelegate.swift in Sources */,
+				FAA5374025073A2000FC2017 /* Dairy.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAA5373B25073A2000FC2017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA5373C25073A2000FC2017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA5374325073A2200FC2017 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA5374425073A2200FC2017 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5374725073A2200FC2017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA5374825073A2200FC2017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA5374A25073A2200FC2017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86CFA589943858B6A769DFD /* Pods-Dairy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KZVTK9MJH;
+				INFOPLIST_FILE = Dairy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkainm.dairy.Dairy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA5374B25073A2200FC2017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0653BD1E6C9CEB7D22FEC13F /* Pods-Dairy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KZVTK9MJH;
+				INFOPLIST_FILE = Dairy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkainm.dairy.Dairy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA5372D25073A2000FC2017 /* Build configuration list for PBXProject "Dairy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5374725073A2200FC2017 /* Debug */,
+				FAA5374825073A2200FC2017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5374925073A2200FC2017 /* Build configuration list for PBXNativeTarget "Dairy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5374A25073A2200FC2017 /* Debug */,
+				FAA5374B25073A2200FC2017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA5373E25073A2000FC2017 /* Dairy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA5373F25073A2000FC2017 /* Dairy.xcdatamodel */,
+			);
+			currentVersion = FAA5373F25073A2000FC2017 /* Dairy.xcdatamodel */;
+			path = Dairy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA5372A25073A2000FC2017 /* Project object */;
+}
